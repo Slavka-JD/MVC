@@ -464,7 +464,7 @@ jQuery.extend({
 			// A fallback to window.onload, that will always work
 			window.addEventListener( "load", jQuery.ready, false );
 
-		// If IE event model is used
+			// If IE event models is used
 		} else if ( document.attachEvent ) {
 			// ensure firing before onload,
 			// maybe late but safe also for iframes
@@ -1281,7 +1281,7 @@ jQuery.support = (function() {
 
 	div.innerHTML = "";
 
-	// Figure out if the W3C box model works as expected
+	// Figure out if the W3C box models works as expected
 	div.style.width = div.style.paddingLeft = "1px";
 
 	body = document.getElementsByTagName( "body" )[ 0 ];
@@ -2980,7 +2980,7 @@ jQuery.event = {
 		return event.result;
 	},
 
-	props: "altKey attrChange attrName bubbles button cancelable charCode clientX clientY ctrlKey currentTarget data detail eventPhase fromElement handler keyCode layerX layerY metaKey newValue offsetX offsetY pageX pageY prevValue relatedNode relatedTarget screenX screenY shiftKey srcElement target toElement view wheelDelta which".split(" "),
+	props: "altKey attrChange attrName bubbles button cancelable charCode clientX clientY ctrlKey currentTarget data detail eventPhase fromElement handler keyCode layerX layerY metaKey newValue offsetX offsetY pageX pageY prevValue relatedNode relatedTarget screenX screenY shiftKey srcElement target toElement views wheelDelta which".split(" "),
 
 	fix: function( event ) {
 		if ( event[ jQuery.expando ] ) {

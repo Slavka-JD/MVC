@@ -63,15 +63,6 @@ h4 {
     font-size: 1em;
 }
 
-img.alignleft {
-    float: left;
-    margin: 5px 30px 20px 0;
-}
-
-img.aligntop {
-    margin: 5px 0 20px 0;
-}
-
 p {
     margin-bottom: 1.5em;
 }
@@ -109,30 +100,7 @@ a {
     height: 130px;
     padding: 40px;
     position: relative;
-    background: url(../images/gods.jpg) no-repeat 85px 30px;
-}
-
-#logo {
-    position: absolute;
-    top: 40px;
-    left: 20px;
-    height: 130px;
-    line-height: 130px;
-
-}
-
-#logo a {
-    color: #ffffff;
-    text-shadow: black 0px 0px 7px;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
-    font-size: 35px;
-}
-
-
-#logo img {
-    margin-left: 70px;
-    vertical-align: middle;
+    background: url(../images/heaven.jpg);
 }
 
 #menu {
@@ -262,11 +230,6 @@ a {
     box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
     border: solid 1px #f3f3f3;
     border-top: 0;
-}
-
-.box img {
-    margin: 0px 20px 0px 0px;
-    border: solid 1px #e3e3e3;
 }
 
 .box p {
